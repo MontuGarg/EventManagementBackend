@@ -2,7 +2,7 @@ require("dotenv").config();
 const express=require("express");
 const app=express();
 const cors=require("cors");
-const bcrypt=require("bcrypt");
+const bcrypt=require("bcryptjs");
 const mongoose=require("mongoose");
 app.use(express.urlencoded({extended:true}));
 app.use(express.json())
