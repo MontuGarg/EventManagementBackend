@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-const port = process.env.PORT_SERVER || 5000;
+const port = process.env.port_server || 5000;
 const mongoCode = process.env.Mongo_Code;
 
 // Setup HTTP server and Socket.IO
